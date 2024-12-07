@@ -1,0 +1,427 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styling */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Search Bar Styling */
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Navigation Links Styling */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .nav-links a:hover {
+    color: #ff5722;
+  }
+  
+  /* Tutorial Link Styling */
+  .tutorial-link {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .tutorial-link a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #007bff; /* Blue color for link */
+    font-weight: bold;
+    transition: color 0.3s;
+    border-bottom: 2px solid #007bff; /* Adds the blue underline */
+  }
+  .tutorial-link a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    border-bottom: 2px solid #0056b3;
+  }
+/* Insights Section Styling */
+.team-insights {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .team-insights h1 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for heading */
+    margin-bottom: 20px;
+  }
+  
+  .small-search-bar input {
+    width: 300px; /* Smaller search bar */
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    outline: none;
+  }
+  /* Trending Topics Section Styling */
+.trending-topics {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .trending-topics h2 {
+    font-size: 2rem;
+    color: #333; /* Dark color for heading */
+    margin-bottom: 20px;
+  }
+  
+  .topics-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .topics-list li {
+    margin: 10px 0;
+  }
+  
+  .topics-list a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .topics-list a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Adds an underline on hover */
+  }
+/* Categories Navbar Section Styling */
+.categories-navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+  }
+  
+  /* Oval-shaped Button Styling */
+  .category-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;  /* Makes the buttons oval */
+    cursor: pointer;
+    background-color: #4caf50;  /* Green color */
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+  }
+  
+  .category-btn:hover {
+    background-color: #45a049;  /* Darker green on hover */
+    transform: translateY(-3px);  /* Button lift effect */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);  /* Shadow effect */
+  }
+  
+  .category-btn:focus {
+    outline: none;
+  }
+/* Card Styling */
+.card {
+    display: flex;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+  
+  .card-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  /* Blog Topics List Styling */
+  .blog-topics h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-topics ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-topics ul li {
+    margin: 8px 0;
+  }
+  
+  .blog-topics ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .blog-topics ul li a:hover {
+    color: #0056b3;
+  }
+  
+  /* Tools Section Styling */
+  .tools-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tools-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Image Styling */
+  .card-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+/* Same Card Styling as the First Card */
+.card {
+    display: flex;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+  
+  .card-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  /* Guides and Tools List Styling */
+  .guides-tools h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .guides-tools ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guides-tools ul li {
+    margin: 8px 0;
+  }
+  
+  .guides-tools ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .guides-tools ul li a:hover {
+    color: #0056b3;
+  }
+  
+  /* AI and Technology Section Styling */
+  .ai-tech h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ai-tech p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Image Styling */
+  .card-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+/* Stay Up to Date Section Styling */
+.stay-up-to-date {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  /* Stay Link Styling */
+  .stay-link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .stay-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Newsletter Section Styling */
+  .newsletter h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Unsubscribe Text Styling */
+  .unsubscribe-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+        /*  */
+        /* 
+     */
+     /*  */
+     /* Navbar Styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Search Bar Styling */
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Navigation Links Styling */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff5722;
+  }
+  
+  /* Styling for Login and Logout buttons */
+  .login-btn, .logout-btn {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover, .logout-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Remove the Login and Logout buttons if logged in */
+  .logged-in .login-btn {
+    display: none;
+  }
+  
+  .logged-in .logout-btn {
+    display: block;
+  }
+  
+  /* Alternatively, display login if not logged in */
+  .logged-out .logout-btn {
+    display: none;
+  }
+  
+  .logged-out .login-btn {
+    display: block;
+  }
